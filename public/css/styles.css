@@ -1,6 +1,31 @@
 /* test */
-* {
+body {
   background-color: #7ad30b;
-  color: #0b1621; }
+  color: #0b1621;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px; }
+
+header {
+  padding: 1em 0;
+  margin: 1em 0 3em 0; }
+  header a {
+    color: #c538a7;
+    margin: 0 1em 0 0;
+    text-decoration: none; }
+
+footer {
+  border-top: 1px solid #0b1621;
+  color: #0b1621;
+  padding: 1em 0;
+  margin: 1em 0 0 0; }
+
+h1 {
+  font-size: 4em;
+  margin: 0 0 1em 0; }
+
+.portrait {
+  width: 250px; }
 
 /*# sourceMappingURL=styles.css.map */
