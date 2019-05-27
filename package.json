@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs && sass --watch public/scss:public/css"
-
-
+    "dev": "nodemon src/app.js -e js,hbs ",
+    "scss": "sass --watch public/scss:public/css",
+    "both": "nodemon src/app.js -e js,hbs && sass --watch public/scss:public/css",
+    "both2" : "npm run dev && npm run scss"
   },
   "repository": {
     "type": "git",
