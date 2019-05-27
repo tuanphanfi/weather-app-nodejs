@@ -5,11 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js -e js,hbs ",
-    "scss": "sass --watch public/scss:public/css",
-    "both": "nodemon src/app.js -e js,hbs && sass --watch public/scss:public/css",
-    "both2" : "npm run dev && npm run scss"
+    "start": "nodemon src/app.js -e js,hbs ",
+    "dev": "concurrently --kill-others \"nodemon src/app.js -e js,hbs \"  \"sass --watch public/scss:public/css\" "
   },
   "repository": {
     "type": "git",
@@ -25,5 +22,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
   }
 }
