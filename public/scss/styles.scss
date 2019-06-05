@@ -10,8 +10,10 @@ body{
     margin: 0 auto;
     padding: 0 16px;
     display: flex;
-    
+    flex-direction: column;
+    min-height: 100vh
 }
+
 
 header{
     padding: 1em 0;
@@ -23,6 +25,10 @@ header{
     }
 }
 
+.main-content {
+    flex-grow: 1;
+}
+
 footer{
     border-top: 1px  solid $black-light;
     color: $black-light;
@@ -32,7 +38,7 @@ footer{
 
 h1{
     font-size: 4em;
-    margin:  0 0 1em 0;
+    margin:  0 0 1rem 0;
 }
 
 .portrait{

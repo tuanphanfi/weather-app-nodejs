@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js -e js,hbs ", 
-    "//": [ 
-      "first line", 
-      "second line" 
+    "start": "node src/app.js -e js,hbs ",
+    "//": [
+      "first line",
+      "second line"
     ],
-      
     "dev": "concurrently --kill-others \"nodemon src/app.js -e js,hbs \"  \"sass --watch public/scss:public/css\" "
   },
   "repository": {
@@ -25,6 +24,7 @@
   },
   "homepage": "https://github.com/tuanphanfi/weather-app-nodejs#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "express": "^4.17.1",
     "hbs": "^4.0.4"
   },
