@@ -18,11 +18,22 @@ body{
 header{
     padding: 1em 0;
     margin: 1em 0 3em 0;
+    
+    
     a{
         color: rgb(197, 56, 167);
         margin: 0 1em 0 0;
         text-decoration: none;
+        &.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        &:hover:not(.active){
+            background-color: rgb(138, 137, 92);
+            color: white;
+        }
     }
+
 }
 
 .main-content {

@@ -17,6 +17,12 @@ header {
     color: #c538a7;
     margin: 0 1em 0 0;
     text-decoration: none; }
+    header a.active {
+      background-color: #4CAF50;
+      color: white; }
+    header a:hover:not(.active) {
+      background-color: #8a895c;
+      color: white; }
 
 .main-content {
   flex-grow: 1; }
