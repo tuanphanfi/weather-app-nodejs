@@ -34,4 +34,15 @@ h1 {
 .portrait {
   width: 250px; }
 
+input {
+  border: 1px solid #c9c0c0;
+  padding: 8px; }
+
+button {
+  cursor: pointer;
+  border: 1px solid #8a895c;
+  background: #8a895c;
+  color: white;
+  padding: 8px; }
+
 /*# sourceMappingURL=styles.css.map */
