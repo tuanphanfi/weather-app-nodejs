@@ -56,6 +56,7 @@ app.get('/weather', (req, res) => {
                 location,
                 address: req.query.address
             })
+            console.log(latitude)
         })
     })
 
@@ -65,7 +66,7 @@ app.get('/weather', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About me',
+        title: 'About',
         name: 'Tuan Phan'
     })
     console.log('At About')

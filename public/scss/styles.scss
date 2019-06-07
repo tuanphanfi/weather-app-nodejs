@@ -21,15 +21,21 @@ header{
     
     
     a{
-        color: rgb(197, 56, 167);
+        color: rgb(90, 36, 78);
+        padding: 16px;
         margin: 0 1em 0 0;
+        background-color: gold;
+        border-radius: 5%;
         text-decoration: none;
+        font-weight: 900;
         &.active {
             background-color: #4CAF50;
+            
             color: white;
         }
         &:hover:not(.active){
             background-color: rgb(138, 137, 92);
+            
             color: white;
         }
     }

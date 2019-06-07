@@ -14,9 +14,13 @@ header {
   padding: 1em 0;
   margin: 1em 0 3em 0; }
   header a {
-    color: #c538a7;
+    color: #5a244e;
+    padding: 16px;
     margin: 0 1em 0 0;
-    text-decoration: none; }
+    background-color: gold;
+    border-radius: 5%;
+    text-decoration: none;
+    font-weight: 900; }
     header a.active {
       background-color: #4CAF50;
       color: white; }
