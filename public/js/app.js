@@ -24,6 +24,9 @@ weatherForm.addEventListener('submit', (e) => {
             } else {
                 messageOne.innerHTML = data.location
                 messageTwo.innerHTML = data.forecast
+                messageOne.style.color = 'gray'
+                messageOne.style.fontWeight = '900'
+                document.querySelector('#messageTwo').style.color = 'white'
             }
         })
     })
